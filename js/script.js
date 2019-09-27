@@ -20,5 +20,4 @@ do
 while (! correctGuess)
   
 document.write("<h1> You guessed the number!<h1>");
-document.write("It took you " + guessCount + " tries to guess the number " + randomNumber);
-  
+document.write("<p>It took you " + guessCount + " tries to guess the number " + randomNumber + "<p>");
